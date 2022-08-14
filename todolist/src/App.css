@@ -1,0 +1,57 @@
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.input-div{
+	text-align: center;
+}
+.item-flex{
+	display: flex;
+	height: 20px;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.addButton{
+	margin: 10px;
+	padding: 5px 15px;
+	background-color: green;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+}
+.deleteButton{
+	margin: 10px;
+	padding: 5px 12px;
+	background-color: red;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.items{
+	background-color: whitesmoke;
+	display: flex;
+	width: 250px;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+input{
+	padding: 4px 24px;
+	margin-left: 10px;
+	border: none;
+	background-color: whitesmoke;
+	color: green;
+	font-family: monospace;
+	font-family: ;
+}
+.item-flex{
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	font-family: monospace;
+	font-size: 15px;
+}
